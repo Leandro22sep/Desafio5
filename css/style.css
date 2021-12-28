@@ -4,7 +4,10 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.tituloHome{
+body{
+    width: 100%;
+}
+.tituloHeader{
     font-size: xx-large;
 }
 header{
@@ -27,7 +30,9 @@ header{
     background-image: url(../images/centinela_principal.jpg);
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 650px;
+    width: 100%;
+    margin-bottom: 0;
 }
 .imagenPrincipalHome div h2{
     color: #ffd7ab;
@@ -41,11 +46,38 @@ header{
 }
 @media only screen and (min-width: 1200px){
     .imagenPrincipalHome{
-        height: 700px;
+        height: 900px;
+        margin-bottom: 0;
     }
 }
 @media only screen and (max-width: 480px){
     .imagenPrincipalHome{
         height: 300px;
+        margin-bottom: 0;
+    }
+}
+.enlacesFooter ul li a{
+    font-size: small;
+    padding: 10px;
+}
+.patrocinadores img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.pieDePagina{
+    width: 100%;
+    background-color: #5b1f00;
+    padding-top: 10px;
+}
+@media only screen and (max-width: 480px){
+    .enlacesFooter ul li a{
+        font-size: xx-small;
+        padding: 5px;
+    }
+    .patrocinadores img{
+        width: 30px;
+        height: 30px;
+        padding: 5px;
     }
 }
