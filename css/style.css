@@ -138,3 +138,17 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.mainConsulta{
+    height: 800px;
+    background-color: #ffd7ab;
+}
+.tituloConsulta{
+    text-align: center;
+    font-size: 30px;
+}
+.nombreyapellido{
+    font-size: 15px;
+}
+.formConsulta div, .formConsulta h2{
+    margin-bottom: 40px;
+}
