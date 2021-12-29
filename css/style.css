@@ -87,26 +87,26 @@ header{
     top: 100px;
 }
 .tituloTurismo{
-    font-size: 30px;
+    font-size: 26px;
     top: 100px;
     height: 50px;
 }
 .parrafoTurismo{
     font-size: 14px;
-    height: 90px;
+    height: 140px;
 }
 .seccionUbicacionTuristica{
-    height: 450px;
+    height: 500px;
     width: 100%;
 }
 @media only screen and (max-width: 991px) and (min-width: 768px){
     .tituloTurismo{
-        font-size: 35px;
+        font-size: 22px;
         top: 100px;
         height: 50px;
     }
     .parrafoTurismo{
-        height: 90px;
+        height: 180px;
     }
     .imgCarrusel{
         height: 180px;
@@ -116,6 +116,10 @@ header{
 @media only screen and (max-width:767px) and (min-width: 480px){
     .imgCarrusel{
         height: 300px;
+    }
+    .seccionUbicacionTuristica{
+        height: 550px;
+        
     }
 }
 @media only screen and (max-width:479px) and (min-width:360px){
@@ -132,4 +136,5 @@ main{
     background-color: #ffd7ab;
     color: #5b1f00;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
